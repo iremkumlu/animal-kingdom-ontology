@@ -1,0 +1,2082 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2023/5/theAnimalKingdom"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/asus/ontologies/2023/5/theAnimalKingdom">
+    <Prefix name="" IRI="http://www.semanticweb.org/asus/ontologies/2023/5/theAnimalKingdom#"/>
+    <Prefix name="ak" IRI="http://www.semanticweb.org/asus/ontologies/2023/5/theAnimalKingdom#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Amphibia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animalia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aquatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arthropoda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asexual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carnivores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chordata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Citys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closed_Circulatory_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cnidaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deserts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Double_Circulatory_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fragmentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Freshwater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grasslands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habitat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herbivores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invertebrates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lungs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mammalia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mollusca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nematoda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Omnivores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open_Circulatory_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oviparous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parthenogenesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pisces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porifera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regeneration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reproduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reptilia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respiration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spiracles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrestrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vertebrates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viviparous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wetlands"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#animalsBreathe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#animalsFed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#animalsLive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#animalsReproduce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#animalshaveCirculation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#circulationName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#habitatName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#howBreathe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#howFeed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#howReproduce"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#speciesName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bath_sponge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Butterfly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chameleon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cobra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crinoid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eagle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Earthworm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Frog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hawk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jellyfish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kangaroo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lizzard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mussel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Octopus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Owl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Partridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pigeon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piranha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salamander"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sardine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scorpion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sea-urchin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sea_sponge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turtle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whiting"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Amphibia"/>
+        <Class IRI="#Vertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animalia"/>
+        <Class IRI="#Kingdom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aquatic"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arthropoda"/>
+        <Class IRI="#Invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asexual"/>
+        <Class IRI="#Reproduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aves"/>
+        <Class IRI="#Vertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budding"/>
+        <Class IRI="#Asexual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carnivores"/>
+        <Class IRI="#Consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chordata"/>
+        <Class IRI="#Invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citys"/>
+        <Class IRI="#Terrestrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closed_Circulatory_System"/>
+        <Class IRI="#Circulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cnidaria"/>
+        <Class IRI="#Invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deserts"/>
+        <Class IRI="#Terrestrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Circulatory_System"/>
+        <Class IRI="#Circulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forests"/>
+        <Class IRI="#Terrestrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fragmentation"/>
+        <Class IRI="#Asexual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Freshwater"/>
+        <Class IRI="#Aquatic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gills"/>
+        <Class IRI="#Respiration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grasslands"/>
+        <Class IRI="#Terrestrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herbivores"/>
+        <Class IRI="#Consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Invertebrates"/>
+        <Class IRI="#Animalia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lungs"/>
+        <Class IRI="#Respiration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammalia"/>
+        <Class IRI="#Vertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marine"/>
+        <Class IRI="#Aquatic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mollusca"/>
+        <Class IRI="#Invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nematoda"/>
+        <Class IRI="#Invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Omnivores"/>
+        <Class IRI="#Consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open_Circulatory_System"/>
+        <Class IRI="#Circulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oviparous"/>
+        <Class IRI="#Sexual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parthenogenesis"/>
+        <Class IRI="#Asexual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pisces"/>
+        <Class IRI="#Vertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porifera"/>
+        <Class IRI="#Invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regeneration"/>
+        <Class IRI="#Asexual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reptilia"/>
+        <Class IRI="#Vertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sexual"/>
+        <Class IRI="#Reproduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skin"/>
+        <Class IRI="#Respiration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spiracles"/>
+        <Class IRI="#Respiration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrestrial"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vertebrates"/>
+        <Class IRI="#Animalia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viviparous"/>
+        <Class IRI="#Sexual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wetlands"/>
+        <Class IRI="#Terrestrial"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Ant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arthropoda"/>
+        <NamedIndividual IRI="#Ant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Ant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Bath_sponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Bath_sponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Porifera"/>
+        <NamedIndividual IRI="#Bath_sponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mammalia"/>
+        <NamedIndividual IRI="#Bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Butterfly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arthropoda"/>
+        <NamedIndividual IRI="#Butterfly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Butterfly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Chameleon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reptilia"/>
+        <NamedIndividual IRI="#Chameleon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Chameleon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Cobra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reptilia"/>
+        <NamedIndividual IRI="#Cobra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Cobra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Coral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cnidaria"/>
+        <NamedIndividual IRI="#Coral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Coral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arthropoda"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Crinoid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chordata"/>
+        <NamedIndividual IRI="#Crinoid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Crinoid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aves"/>
+        <NamedIndividual IRI="#Eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Earthworm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Earthworm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nematoda"/>
+        <NamedIndividual IRI="#Earthworm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Amphibia"/>
+        <NamedIndividual IRI="#Frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Hawk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aves"/>
+        <NamedIndividual IRI="#Hawk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Hawk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Human"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mammalia"/>
+        <NamedIndividual IRI="#Human"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Human"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cnidaria"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mammalia"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mammalia"/>
+        <NamedIndividual IRI="#Lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Lizzard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reptilia"/>
+        <NamedIndividual IRI="#Lizzard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Lizzard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Mussel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Mussel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mollusca"/>
+        <NamedIndividual IRI="#Mussel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mollusca"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Owl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aves"/>
+        <NamedIndividual IRI="#Owl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Owl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Partridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aves"/>
+        <NamedIndividual IRI="#Partridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Partridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Pigeon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aves"/>
+        <NamedIndividual IRI="#Pigeon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Pigeon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Piranha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pisces"/>
+        <NamedIndividual IRI="#Piranha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Piranha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Planaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Planaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nematoda"/>
+        <NamedIndividual IRI="#Planaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reptilia"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Amphibia"/>
+        <NamedIndividual IRI="#Salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Sardine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pisces"/>
+        <NamedIndividual IRI="#Sardine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Sardine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Scorpion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arthropoda"/>
+        <NamedIndividual IRI="#Scorpion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Scorpion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chordata"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Sea_sponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Sea_sponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Porifera"/>
+        <NamedIndividual IRI="#Sea_sponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Shark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pisces"/>
+        <NamedIndividual IRI="#Shark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Shark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invertebrates"/>
+        <NamedIndividual IRI="#Snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mollusca"/>
+        <NamedIndividual IRI="#Snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mammalia"/>
+        <NamedIndividual IRI="#Tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Turtle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reptilia"/>
+        <NamedIndividual IRI="#Turtle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Turtle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animalia"/>
+        <NamedIndividual IRI="#Whiting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pisces"/>
+        <NamedIndividual IRI="#Whiting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vertebrates"/>
+        <NamedIndividual IRI="#Whiting"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Ant"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Ant"/>
+        <Literal>citys and deserts and forests and grasslands and wetlands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Ant"/>
+        <Literal>spiracles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Ant"/>
+        <Literal>omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Ant"/>
+        <Literal>parthenogenesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Ant"/>
+        <Literal>Linepithema humile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Bath_sponge"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Bath_sponge"/>
+        <Literal>omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Bath_sponge"/>
+        <Literal>oviparous and parthenogenesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Bath_sponge"/>
+        <Literal>Spongia officinalis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Bear"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Bear"/>
+        <Literal>forests and grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Bear"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Bear"/>
+        <Literal>omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Bear"/>
+        <Literal>viviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Bear"/>
+        <Literal>ursus arctos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Butterfly"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Butterfly"/>
+        <Literal>forests and grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Butterfly"/>
+        <Literal>spiracles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Butterfly"/>
+        <Literal>herbivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Butterfly"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Butterfly"/>
+        <Literal>Danaus plexippus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Chameleon"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Chameleon"/>
+        <Literal>grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Chameleon"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Chameleon"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Chameleon"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Chameleon"/>
+        <Literal>Chamaeleo calyptratus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Cobra"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Cobra"/>
+        <Literal>forests</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Cobra"/>
+        <Literal>lungs and skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Cobra"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Cobra"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Cobra"/>
+        <Literal>Naja naja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Coral"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Coral"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Coral"/>
+        <Literal>skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Coral"/>
+        <Literal>herbivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Coral"/>
+        <Literal>oviparous and parthenogenesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Coral"/>
+        <Literal>Acropora spp.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Crab"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Crab"/>
+        <Literal>freshwater and marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Crab"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Crab"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Crab"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Crab"/>
+        <Literal>Carcinus maenas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Crinoid"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Crinoid"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Crinoid"/>
+        <Literal>skin and spiracles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Crinoid"/>
+        <Literal>omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Crinoid"/>
+        <Literal>oviparous and parthenogesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Crinoid"/>
+        <Literal>Patiria miniata</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Eagle"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Eagle"/>
+        <Literal>forests and deserts and grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Eagle"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Eagle"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Eagle"/>
+        <Literal>Aquila nipalensis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Eagle"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Earthworm"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Earthworm"/>
+        <Literal>forests and wetlands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Earthworm"/>
+        <Literal>skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Earthworm"/>
+        <Literal>herbivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Earthworm"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Earthworm"/>
+        <Literal>Lumbricus terrestris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Frog"/>
+        <Literal>double</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Frog"/>
+        <Literal>wetlands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Frog"/>
+        <Literal>skin and lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Frog"/>
+        <Literal>carnivor and omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Frog"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Frog"/>
+        <Literal>rana clamitans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Hawk"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Hawk"/>
+        <Literal>forests and deserts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Hawk"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Hawk"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Hawk"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Hawk"/>
+        <Literal>Falco tinnunculus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Human"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Human"/>
+        <Literal>deserts and forests and grasslands and wetlands and citys</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Human"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Human"/>
+        <Literal>omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Human"/>
+        <Literal>viviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Human"/>
+        <Literal>homo sapiens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+        <Literal>skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+        <Literal>budding</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Jellyfish"/>
+        <Literal>Chrysaora fuscescens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+        <Literal>forests and grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+        <Literal>herbivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+        <Literal>viviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Kangaroo"/>
+        <Literal>macropus rufus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Lion"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Lion"/>
+        <Literal>forests</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Lion"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Lion"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Lion"/>
+        <Literal>viviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Lion"/>
+        <Literal>panthera leo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Lizzard"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Lizzard"/>
+        <Literal>deserts and grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Lizzard"/>
+        <Literal>lungs and skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Lizzard"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Lizzard"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Lizzard"/>
+        <Literal>Lacerta viridis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Mussel"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Mussel"/>
+        <Literal>freshwater and marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Mussel"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Mussel"/>
+        <Literal>herbivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Mussel"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Mussel"/>
+        <Literal>Mytilus edulis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Octopus"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Octopus"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Octopus"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Octopus"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Octopus"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Octopus"/>
+        <Literal>Octopus vulgaris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Owl"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Owl"/>
+        <Literal>forests</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Owl"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Owl"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Owl"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Owl"/>
+        <Literal>Bubo bubo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Partridge"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Partridge"/>
+        <Literal>grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Partridge"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Partridge"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Partridge"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Partridge"/>
+        <Literal>Phasianus colchicus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Pigeon"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Pigeon"/>
+        <Literal>citys</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Pigeon"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Pigeon"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Pigeon"/>
+        <Literal>Columba livia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Pigeon"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Piranha"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Piranha"/>
+        <Literal>freshwater</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Piranha"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Piranha"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Piranha"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Piranha"/>
+        <Literal>Pygocentrus nattereri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Planaria"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Planaria"/>
+        <Literal>freshwater</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Planaria"/>
+        <Literal>skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Planaria"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Planaria"/>
+        <Literal>oviparous and parthenogenesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Planaria"/>
+        <Literal>Dugesia tigrina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Python"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Python"/>
+        <Literal>grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Python"/>
+        <Literal>lungs and skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Python"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Python"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Python"/>
+        <Literal>Python molurus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Salamander"/>
+        <Literal>double</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Salamander"/>
+        <Literal>skin and lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Salamander"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Salamander"/>
+        <Literal>wetlands and forests</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Salamander"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Salamander"/>
+        <Literal>Taricha granulosa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Sardine"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Sardine"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Sardine"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Sardine"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Sardine"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Sardine"/>
+        <Literal>Sardina pilchardus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Scorpion"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Scorpion"/>
+        <Literal>deserts and grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Scorpion"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Scorpion"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Scorpion"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Scorpion"/>
+        <Literal>Androctonus australis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+        <Literal>skin and spiracles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+        <Literal>omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+        <Literal>oviparous and parthenogenesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Sea-urchin"/>
+        <Literal>Asterias rubens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Sea_sponge"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Sea_sponge"/>
+        <Literal>omnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Sea_sponge"/>
+        <Literal>oviparous and budding</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Sea_sponge"/>
+        <Literal>Spongilla lacustris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Shark"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Shark"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Shark"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Shark"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Shark"/>
+        <Literal>viviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Shark"/>
+        <Literal>Carcharodon carcharias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Snail"/>
+        <Literal>open</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Snail"/>
+        <Literal>forests and wetlands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Snail"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Snail"/>
+        <Literal>herbivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Snail"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Snail"/>
+        <Literal>Cornu aspersum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Tiger"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Tiger"/>
+        <Literal>forests</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Tiger"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Tiger"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Tiger"/>
+        <Literal>viviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Tiger"/>
+        <Literal>panthera tigris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Turtle"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Turtle"/>
+        <Literal>wetlands and grasslands</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Turtle"/>
+        <Literal>lungs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Turtle"/>
+        <Literal>herbivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Turtle"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Turtle"/>
+        <Literal>Testudo graeca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#circulationName"/>
+        <NamedIndividual IRI="#Whiting"/>
+        <Literal>closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#habitatName"/>
+        <NamedIndividual IRI="#Whiting"/>
+        <Literal>marine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howBreathe"/>
+        <NamedIndividual IRI="#Whiting"/>
+        <Literal>gills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howFeed"/>
+        <NamedIndividual IRI="#Whiting"/>
+        <Literal>carnivor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#howReproduce"/>
+        <NamedIndividual IRI="#Whiting"/>
+        <Literal>oviparous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speciesName"/>
+        <NamedIndividual IRI="#Whiting"/>
+        <Literal>Merlangius merlangus</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#animalsBreathe"/>
+        <Class IRI="#Animalia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#animalsFed"/>
+        <Class IRI="#Animalia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#animalsLive"/>
+        <Class IRI="#Animalia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#animalsReproduce"/>
+        <Class IRI="#Animalia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#animalshaveCirculation"/>
+        <Class IRI="#Animalia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animalsBreathe"/>
+        <Class IRI="#Respiration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animalsFed"/>
+        <Class IRI="#Consumer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animalsLive"/>
+        <Class IRI="#Habitat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animalsReproduce"/>
+        <Class IRI="#Reproduction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#animalshaveCirculation"/>
+        <Class IRI="#Circulation"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#circulationName"/>
+        <Class IRI="#Animalia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#habitatName"/>
+        <Class IRI="#Animalia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#howBreathe"/>
+        <Class IRI="#Animalia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#howFeed"/>
+        <Class IRI="#Animalia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#howReproduce"/>
+        <Class IRI="#Animalia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#speciesName"/>
+        <Class IRI="#Animalia"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#circulationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#habitatName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#howBreathe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#howFeed"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#howReproduce"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#speciesName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Animalia</IRI>
+        <Literal xml:lang="en">The animal kingdom is the world of living things that has the most living species.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kingdom</IRI>
+        <Literal xml:lang="en">Living things are divided into five kingdoms: animal, plant, fungi, protist and monera.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#animalsBreathe</IRI>
+        <Literal xml:lang="en">breathing pattern of animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#animalsFed</IRI>
+        <Literal xml:lang="en">diet of animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#animalsLive</IRI>
+        <Literal xml:lang="en">habitat of animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#animalsReproduce</IRI>
+        <Literal xml:lang="en">how animals reproduce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#animalshaveCirculation</IRI>
+        <Literal xml:lang="en">circulatory system of animals</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
